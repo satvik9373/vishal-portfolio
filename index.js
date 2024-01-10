@@ -24329,19 +24329,19 @@ class lM {
     }
 }
 const cM = [{
-    name: "WebGL",
+    name: "Digital Advertising Expertise",
     width: "60%"
 }, {
-    name: "ReactJS",
+    name: "SEO",
     width: "65%"
 }, {
-    name: "JavaScript",
+    name: "Data Analysis and Analytics",
     width: "85%"
 }, {
-    name: "HTML + CSS",
+    name: "Content Marketing",
     width: "90%"
 }, {
-    name: "3D Modelling",
+    name: "Social Media Mastery",
     width: "60%"
 }];
 class hM {
