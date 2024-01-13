@@ -24195,53 +24195,53 @@ class rM {
 }
 const oM = [{
         id: 0,
-        name: "sstudypoint",
-        description: "Coaching classes website",
-        image: "images/projects/sstudy point.jpg",
+        name: "Vedic Science Institute",
+        description: "",
+        image: "vedic.jpg",
         tags: ["javascript", "backend", "html", "css"],
-        liveview: "https://sstudypoint.in/",
-        github: "https://github.com/satvik9373/studypoint111.git",
-        alt: "Coaching classes website"
+        liveview: "https://www.vedicsciencesinstitute.com/",
+        github: "##",
+        alt: ""
     }, {
         id: 1,
-        name: "Guru-Drishti-Kala-Kendra",
-        description: "A traditional dance classes Website",
-        image: "images/projects/guru-drishti.jpg",
+        name: "The Concept Engineering",
+        description: "",
+        image: "concept.png",
         tags: ["javascript", "html", "css"],
-        liveview: "https://guru-drishti-kala-kendra.netlify.app/",
-        github: "https://github.com/satvik9373/Guru-Drishti-Kala-Kendra.git",
-        alt: "A traditional dance classes Website"
+        liveview: "https://theconceptengineering.com/",
+        github: "#",
+        alt: ""
     }, {
         id: 2,
-        name: "Rudra-Fitness",
-        description: "Fitness Institute",
-        image: "images/projects/rudra.jpg",
+        name: "Kings Trading",
+        description: "",
+        image: "kings.png",
         tags: ["javascript", "html", "css"],
-        liveview: "https://rudrafitness.com/",
-        github: "https://github.com/satvik9373/yoga-class.git",
-        alt: "Fitness Institute"
+        liveview: "https://www.allkingstradings.com/",
+        github: "##",
+        alt: ""
     }, {
         id: 3,
-        name: "Codequarry",
-        description: "Our Edtech website where we teach different prograaming languages in affordable prices",
-        image: "images/projects/codequarry.png",
+        name: "Akka Furniture",
+        description: "",
+        image: "furniture.jpg",
         tags: ["javascript", "html", "css"],
-        twitter: "https://discord.gg/P9QvEeAm",
-        alt: "Our Edtech website where we teach different prograaming languages in affordable prices",
+        twitter: "##",
+        alt: "",
         bannerIcons: [{
             src: "images/cssda-icon.png",
             alt: "cssda icon site of the day"
         }],
-        twitter: "https://discord.gg/P9QvEeAm"
+        twitter: "https://www.akkafurnitureandmodular.com/"
     }, {
         id: 4,
-        name: "Bean-Buzz",
-        description: "Coffee Shop Website",
-        image: "images/projects/coffee.jpg",
+        name: "Dhanva Technologies",
+        description: "",
+        image: "technology.png",
         tags: ["javascript","html", "css"],
-        liveview: "https://beanbuzz.netlify.app/",
-        github: "https://github.com/satvik9373/coffee-website-.git",
-        alt: "Coffee Shop Website"
+        liveview: "https://www.dhanvatech.com/",
+        github: "##",
+        alt: ""
     }],
     aM = {
         html: '<div class="work-item-tag" style="background: white; border: 1px solid #7C8594; color: #7C8594">HTML</div>',
@@ -24335,15 +24335,12 @@ const cM = [{
     name: "SEO",
     width: "65%"
 }, {
-    name: "Data Analysis and Analytics",
+    name: "Ad Creative Innovation",
     width: "85%"
 }, {
-    name: "Content Marketing",
+    name: "Multi-Channel Proficiency",
     width: "90%"
-}, {
-    name: "Social Media Mastery",
-    width: "60%"
-}];
+},];
 class hM {
     constructor() {
         he(this, "domElements", {
