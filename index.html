@@ -523,49 +523,52 @@
 
             <div id="contact-container">
                 <!--Form Container-->
-                <div id="contact-form-container" class="column contact-container">
-                    <div id="contact-name-input" class="input-container column">
-                        <div class="row">
-                            <label for="contact-name-input-field">Name :</label>
-                            <span class="error-label hide">Please enter your name.</span>
-                        </div>
-                        <input id="contact-name-input-field" tabindex="-1">
-                    </div>
-                    <div id="contact-email-input" class="input-container column">
-                        <div class="row">
-                            <label for="contact-email-input-field">Email :</label>
-                            <span class="error-label hide">Please enter a valid email address.</span>
-                        </div>
-                        <input id="contact-email-input-field" type="email" tabindex="-1">
-                    </div>
-                    <div id="contact-message-input" class="input-container column">
-                        <div class="row">
-                            <label for="contact-message-input-field">Message :</label>
-                            <span class="error-label hide">Please enter your message.</span>
-                        </div>
-                        <textarea id="contact-message-input-field" tabindex="-1"></textarea>
-                    </div>
-                    <div class="row" id="contact-button-container">
-                        <!--Social Icons-->
-                        <div id="menu-social-container" class="row">
-                <a tabindex="-1" target="_blank" href="https://discord.gg/P9QvEeAm"><img class="social-icon"
-                        src="./images/discord.png" alt="discord Menu Icon" height="28" width="28"></img></a>
-                <a tabindex="-1" target="_blank" href="https://github.com/satvik9373"><img class="social-icon"
-                        alt="Github Menu Icon" height="28" width="28" src="/icons/github-icon.png"></img></a>
-               
-                <a tabindex="-1" href="mailto:Satvikchaturvedi8989@gmail.com"> <img class="social-icon" alt="Email Menu Icon"
-                        height="28" width="28" src="/icons/mail-icon.png"></img></a>
-                        <!--Submit Button-->
-                        <div id="contact-submit-button" class="small-button orange-hover">
-                            Submit
-                        </div>
-                    </div>
-                </div>
+<form id="contact-form" action="https://api.web3forms.com/submit" method="POST" class="column contact-container">
+    <div id="contact-name-input" class="input-container column">
+        <div class="row">
+            <input type="hidden" name="access_key" value="c1b0c96c-c342-4cc1-acf8-cfa4c8b53a5f">
+            <label for="contact-name-input-field">Name :</label>
+            <span class="error-label hide">Please enter your name.</span>
+        </div>
+        <input id="contact-name-input-field" name="name" tabindex="-1">
+    </div>
+    <div id="contact-email-input" class="input-container column">
+        <div class="row">
+            <label for="contact-email-input-field">Email :</label>
+            <span class="error-label hide">Please enter a valid email address.</span>
+        </div>
+        <input id="contact-email-input-field" type="email" name="email" tabindex="-1">
+    </div>
+    <div id="contact-message-input" class="input-container column">
+        <div class="row">
+            <label for="contact-message-input-field">Message :</label>
+            <span class="error-label hide">Please enter your message.</span>
+        </div>
+        <textarea id="contact-message-input-field" name="message" tabindex="-1"></textarea>
+    </div>
+    <div class="row" id="contact-button-container">
+        <!--Social Icons-->
+        <div id="menu-social-container" class="row">
+            <a tabindex="-1" target="_blank" href="https://discord.gg/P9QvEeAm">
+                <img class="social-icon" src="./images/discord.png" alt="discord Menu Icon" height="28" width="28">
+            </a>
+            <a tabindex="-1" target="_blank" href="https://github.com/satvik9373">
+                <img class="social-icon" alt="Github Menu Icon" height="28" width="28" src="/icons/github-icon.png">
+            </a>
+            <a tabindex="-1" href="mailto:Satvikchaturvedi8989@gmail.com">
+                <img class="social-icon" alt="Email Menu Icon" height="28" width="28" src="/icons/mail-icon.png">
+            </a>
+            <!--Submit Button-->
+            <button id="contact-submit-button" type="submit" class="small-button orange-hover">Submit</button>
+        </div>
+    </div>
+</form>
 
-                <!--Loading Container-->
-                <div id="contact-loading-container" class="center contact-container hide">
-                    <h4>Delivering...</h4>
-                </div>
+<!--Loading Container-->
+<div id="contact-loading-container" class="center contact-container hide">
+    <h4>Delivering...</h4>
+</div>
+
 
                 <!--Result Container-->
                 <div id="contact-result-container" class="contact-container column center hide">
