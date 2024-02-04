@@ -24329,16 +24329,16 @@ class lM {
     }
 }
 const cM = [{
-    name: "Digital Advertising Expertise",
+    name: "Website Development",
     width: "60%"
 }, {
-    name: "SEO",
+    name: "Graphic Designing",
     width: "65%"
 }, {
-    name: "Ad Creative Innovation",
+    name: "Video Editing",
     width: "85%"
 }, {
-    name: "Multi-Channel Proficiency",
+    name: "Digital-Marketing",
     width: "90%"
 },];
 class hM {
